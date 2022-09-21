@@ -26,4 +26,4 @@ const img = images.map(image => {
 
 });
 
-galery.insertAdjacentHTML('afterbegin', [...img].join(''));
+galery.insertAdjacentHTML("afterbegin", [...img].join(''));

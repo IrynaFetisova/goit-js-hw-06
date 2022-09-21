@@ -27,5 +27,5 @@ function handleSubmit(event) {
  
   console.log(consoleObj);
   event.currentTarget.reset();
-}
+};
 
