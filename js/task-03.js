@@ -21,7 +21,7 @@ const images = [
 const galery = document.querySelector('.gallery');
 
 const img = images.map(image => {
-  const newElement = `<li><img src = ${image.url} alt = ${image.alt} width = 200 height = 200></li>`;
+  const newElement = `<li class = "gallery__el"><img src = ${image.url} alt = ${image.alt}/></li>`;
   return newElement;
 
 });
